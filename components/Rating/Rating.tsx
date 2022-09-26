@@ -17,7 +17,7 @@ export const Rating = ({isEditable = false, rating, setRating,...props}:Ratingpr
       return(
         <StarIcon
          className = {cn(styles.star,{
-          [styles.fill]: i< currentRating
+          [styles.filled]: i< currentRating
          })}
         
         />

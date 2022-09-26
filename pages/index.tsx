@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Htag, P, Tag} from "../components";
+import { Button, Htag, P, Rating, Tag} from "../components";
 
 
 
@@ -17,6 +17,7 @@ export default function Home(): JSX.Element{
       <Tag size="m" color="red">red</Tag>
       <Tag size="m" color="green">green</Tag>
       <Tag color="green">green</Tag>
+      <Rating rating={4}/>
 
     </div>
   );
